@@ -1,0 +1,1 @@
+print(f"your score is  {score} , your heiht is {height} and you are good or bad is {remarks}")
