@@ -18,3 +18,4 @@ print(tip_per_person)
 # tip=float(bill)*float(percent)/100
 # per_person_tip=float(tip)/int(no_of_person)
 # print(per_person_tip)
+
