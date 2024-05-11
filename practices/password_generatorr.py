@@ -16,3 +16,7 @@ for i in range(10):
     print(i, end=' ')
 
 print("Welcome to password generator! ")
+no_numbers=input(int("Enter how many numbers do you want to add to your password"))
+no_letters=input("Enter how many letters to add to your password")
+no_symbols=input("Enter how many symbols to add to your password")
+
