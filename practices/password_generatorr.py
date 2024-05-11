@@ -9,20 +9,7 @@ no_symbols=int(input("Enter no of symbols you want to use in your password \n"))
 no_number=int(input("Enter no of numbers you want to use in your password \n"))
 
 
-# # easy steps
-# password=""
-# for char in range(1,no_letters+1):
-#   password+=random.choice(letters)
 
-# for char in range(1,no_symbols+1):
-#   password+=random.choice(symbols)
-
-# for char in range(1,no_number+1):
-#   password+=random.choice(numbers)
-
-# print(password)
-
-# hard steps
 
 password_list=[]
 for char in range(1,no_letters+1):
