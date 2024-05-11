@@ -13,17 +13,24 @@ symbols=['!','<','>','@','%','*','^']
 print(symbols)
 
 
-for number in range(10):
-    print(number, end=' ')
+for numbers in range(10):
+    print(numbers, end=' ')
 
 
 print("Welcome to password generator! ")
-no_numbers=input(int("Enter how many numbers do you want to add to your password"))
-no_letters=input("Enter how many letters to add to your password")
-no_symbols=input("Enter how many symbols to add to your password")
+no_numbers=int(input("Enter how many numbers do you want to add to your password"))
+no_letters=int(input("Enter how many letters to add to your password"))
+no_symbols=int(input("Enter how many symbols to add to your password"))
 
 password_list=[]
 
 for char in range(0,len(no_numbers+1)):
-      password_list+=random.choice(number)
-print(number)
+      password_list+=random.choice(numbers)
+
+for char in range(0,len(no_letters+1)):
+     password_list+=random.choice(letters)
+
+for char in range(0,len(no_symbols+1)):
+     password_list+=random.choice(symbols)
+
+print(password_list)
