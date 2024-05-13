@@ -4,7 +4,7 @@ rock="✊"
 paper="📃"
 scissors="✂"
 
-userChoice=input("Enter your choice 0 for rock ,1 for sissors and 2 for paper:\n")
+userChoice=int(input("Enter your choice 0 for rock ,1 for sissors and 2 for paper:\n"))
 
 if userChoice==0:
   userChoice=rock
