@@ -6,4 +6,4 @@ if random_side == 0:
 else:
   print("Heads")
 
-# print(f"You got {random_int} after flipping dice")
+print(f"You got {random_side} after flipping dice")
