@@ -2,7 +2,7 @@ print("Highest score csaloculator")
 student_scores=input("Enter score of every students \n" ).split()
 
 
-for n in range(0,student_scores):
+for n in range(len(student_scores)):
   student_scores[n]=int(student_scores[n])
 
 highest_score=0
