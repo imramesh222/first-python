@@ -4,8 +4,17 @@
 
 #create or defining own function
 
+# def my_function():
+#   print("my_function")
+#   print("hello")
+
+# my_function()
+
 def my_function():
-  print("my_function")
-  print("hello")
+  for n in range(6)
+  print(n)
+
+for add in range(6):
+  add+=1
 
 my_function()
