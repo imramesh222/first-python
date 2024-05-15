@@ -5,7 +5,7 @@
 #create or defining own function
 
 def my_function():
+  print("my_function")
   print("hello")
-  print("Bye")
 
-my_function()      #calling function
+my_function()
