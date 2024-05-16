@@ -3,3 +3,4 @@ print("hello World")
 print("hello World")
 
 print("hello"+" "+"world")
+print(1+2)
