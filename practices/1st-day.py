@@ -12,3 +12,11 @@ print("Your band name could be "+ name +" "+ city)
 # pet=input("What's is your pet's name ?\n ")
 
 # print("Your name could be " + city + " " + pet)
+print("Band name generator:")
+
+name=input("What is your name?\n")
+city=input("What is your city?\n")
+
+print(f"Your band name could be {name} {city}")
+
+print("Your band name could be "+ name +" "+ city)
