@@ -21,6 +21,15 @@ print("Your band name could be "+ name +" "+ city)
 
 # print("Your band name could be "+ name +" "+ city)
 
+# print("Band name generator:")
+
+# name=input("What is your name?\n")
+# city=input("What is your city?\n")
+
+# print(f"Your band name could be {name} {city}")
+
+# print("Your band name could be "+ name +" "+ city)
+
 print("Band name generator:")
 
 name=input("What is your name?\n")
