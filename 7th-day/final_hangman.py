@@ -7,3 +7,6 @@ import random
 chosen_word=random.choice(words_list)
 chosen_word_length=len(chosen_word)
 
+end_of_game=False
+lives=6
+
