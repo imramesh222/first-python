@@ -1,2 +1,1 @@
-for n in range(0,student_scores):
-  student_scores[n]=int(student_scores[n])
+        print(f"Current position: {position}\n Current letter:{letter}\n Gussed letter:{letter}")
