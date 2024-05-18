@@ -17,5 +17,5 @@ lives=6
 
 
 
-from hangman_art import HANGMANPICS
-print(HANGMANPICS)
+from hangman_art import stages
+print(stages)
