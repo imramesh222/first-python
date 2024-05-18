@@ -11,3 +11,10 @@ chosen_word_length=len(chosen_word)
 end_of_game=False
 lives=6
 
+
+
+
+
+
+from hangman_art import HANGMANPICS
+print(HANGMANPICS)
