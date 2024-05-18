@@ -62,14 +62,12 @@ end_of_game=False
 while not end_of_game:
     guess=input("Guess a letter: ").lower()
     for position in range(word_length):
-      letter=chosen_word[position]
-      print(f"Current position: {position}\n Current letter:{letter}\n Gussed letter:{letter}")
-      if letter==guess:
-        display[position]=letter
+        letter=chosen_word[position]
+        print(f"Current position: {position}\n Current letter:{letter}\n Gussed letter:{letter}")
+        if letter==guess:
+            display[position]=letter
 
     print(f"{' '.join(display)}") 
     if "_" not in display:
-      end_of_game=True
-      print("You win!")
-    else:
-      print("You lose!")  
+        end_of_game=True
+        print("You win!")
