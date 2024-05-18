@@ -53,13 +53,11 @@ words_list = [
     ]
 chosen_word=random.choice(words_list)
 print(f"the chosen word is {chosen_word}")
-
 display=[]
 word_length=len(chosen_word)
 for _ in range(word_length):
   display+="_"
 print(display)
-
 end_of_game=False
 while not end_of_game:
     guess=input("Guess a letter: ").lower()
