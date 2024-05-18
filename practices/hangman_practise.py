@@ -12,7 +12,6 @@ for _ in range(chosen_word_length):
     display.append("_")
 print(display)
 
-
 end_of_game = False
 while not end_of_game:
     guess = input("Guess a letter: ").lower()
