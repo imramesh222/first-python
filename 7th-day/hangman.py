@@ -56,7 +56,6 @@ import random
 chosen_word=random.choice(words_list)
 print(f"the chosen word is {chosen_word}")
 
-
 display=[]
 word_length=len(chosen_word)
 for _ in range(word_length):
@@ -65,16 +64,16 @@ print(display)
 
 end_of_game=False
 while not end_of_game:
-  guess=input("Guess a letter: ").lower()
-  for position in range(word_length):
-    letter=chosen_word[position]
-    print(f"Current position: {position}\n Current letter:{letter}\n Gussed letter:{letter}")
-    if letter==guess:
-      display[position]=letter
+    guess=input("Guess a letter: ").lower()
+    for position in range(word_length):
+      letter=chosen_word[position]
+      print(f"Current position: {position}\n Current letter:{letter}\n Gussed letter:{letter}")
+      if letter==guess:
+        display[position]=letter
 
-  print(f"{' '.join(display)}") 
-  if "_" not in display:
-    end_of_game=True
-    print("You win!")
-  else:
-    print("You lose!")  
+    print(f"{' '.join(display)}") 
+    if "_" not in display:
+      end_of_game=True
+      print("You win!")
+    else:
+      print("You lose!")  
