@@ -4,7 +4,7 @@ words_list = [
     "avocado", "pomegranate", "peach", "pear", "plum", "apricot"
     ]
 import random
-from hangman_word_list import Word_list
+from hangman_word_list import word_list
 chosen_word=random.choice(words_list)
 chosen_word_length=len(chosen_word)
 
