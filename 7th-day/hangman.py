@@ -47,19 +47,34 @@
 
 
 words_list = [
-    "apple", "banana", "mango", "grapes", "orange", "watermelon""pineapple", "papaya", "guava",
+    "apple", "banana", "mango", "grapes", "orange", "watermelon","pineapple", "papaya", "guava",
     "strawberry", "cherry", "blueberry", "blackberry", "raspberry""lemon", "lime", "coconut",
     "avocado", "pomegranate", "peach", "pear", "plum", "apricot"
     ]
 import random
 
 chosen_word=random.choice(words_list)
-print(chosen_word)
+print(f"the chosen word is {chosen_word}")
 
-guess=input("Guess a letter: ").lower()
 
-for letter in chosen_word:
-  if letter==guess:
-    print("Right")
+display=[]
+word_length=len(chosen_word)
+for _ in range(word_length):
+  display+="_"
+print(display)
+
+end_of_game=False
+while not end_of_game:
+  guess=input("Guess a letter: ").lower()
+  for position in range(word_length):
+    letter=chosen_word[position]
+    print(f"Current position: {position}\n Current letter:{letter}\n Gussed letter:{letter}")
+    if letter==guess:
+      display[position]=letter
+
+  print(f"{' '.join(display)}") 
+  if "_" not in display:
+    end_of_game=True
+    print("You win!")
   else:
-    print("Wrong")
+    print("You lose!")  
