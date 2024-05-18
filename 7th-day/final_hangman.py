@@ -5,4 +5,5 @@ words_list = [
     ]
 import random
 chosen_word=random.choice(words_list)
-print(chosen_word)
+chosen_word_length=len(chosen_word)
+
