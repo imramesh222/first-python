@@ -6,14 +6,17 @@ words_list = [
     ]
 chosen_word = random.choice(words_list)
 print(f"The chosen word is {chosen_word}")
-
-display = ["_" for _ in range(len(chosen_word))]
+chosen_word_length=len(chosen_word)
+display = []
+for _ in range(chosen_word_length):
+    display.append("_")
 print(display)
+
 
 end_of_game = False
 while not end_of_game:
     guess = input("Guess a letter: ").lower()
-    for position in range(len(chosen_word)):
+    for position in range(chosen_word_length):
         letter = chosen_word[position]
         if letter == guess:
             display[position] = letter
