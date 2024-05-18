@@ -49,7 +49,7 @@ stages = ['''
       |
 =========''']
 
-hangman_logo=['''88                                                                            
+logo=['''88                                                                            
 88                                                                            
 88                                                                            
 88,dPPYba,  ,adPPYYba, 8b,dPPYba,   ,adPPYb,d8 88,dPYba,,adPYba,  ,adPPYYba,  
